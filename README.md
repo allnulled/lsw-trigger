@@ -1,11 +1,13 @@
-# triggers-class
+# lsw-trigger
 
 Register and emit async triggers using asterisks, names, priority and parameters. Less than 100 lines script.
+
+Branch of [@allnulled/triggers-class](https://github.com/allnulled/triggers-class).
 
 ## Installation
 
 ```sh
-npm i -s @allnulled/triggers-class
+npm i -s @allnulled/lsw-trigger
 ```
 
 ## Import
@@ -13,13 +15,13 @@ npm i -s @allnulled/triggers-class
 In node.js:
 
 ```js
-require("@allnulled/triggers-class");
+require("@allnulled/lsw-trigger");
 ```
 
 In html:
 
 ```html
-<script src="node_modules/@allnulled/triggers-class/triggers-class.js"></script>
+<script src="node_modules/@allnulled/lsw-trigger/triggers-class.js"></script>
 ```
 
 Then you can use `window.TriggersClass` or `global.TriggersClass`.
