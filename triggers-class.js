@@ -34,6 +34,9 @@
       return Array.from(matches);
     }
 
+    static create(...args) {
+      return new this(...args);
+    }
 
     all = {};
 
